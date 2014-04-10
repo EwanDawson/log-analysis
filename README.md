@@ -34,11 +34,11 @@ I've included references at the end, and attached my elasticsearch and logstash 
 * Logstash defaults to running the event filter processes on a single thread. The filtering is the bottleneck in our setup, so when running logstash, use the -w parameter to set the number of threads used for filtering. I used 10.
 
 References:
-http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/indices-update-settings.html
-http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup-configuration.html#_environment_variables
-http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-cluster.html
-http://elasticsearch-users.115913.n3.nabble.com/write-throughput-test-on-elasticsearch-9-high-configuration-nodes-cluster-td4033887.html
-http://jablonskis.org/2013/elasticsearch-and-logstash-tuning/index.html
-http://blog.trifork.com/2014/01/07/elasticsearch-how-many-shards/
-http://elasticsearch-users.115913.n3.nabble.com/Unknown-mlockall-error-0-td4007300.html
-http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-threadpool.html
+* http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/indices-update-settings.html
+* http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup-configuration.html#_environment_variables
+* http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-cluster.html
+* http://elasticsearch-users.115913.n3.nabble.com/write-throughput-test-on-elasticsearch-9-high-configuration-nodes-cluster-td4033887.html
+* http://jablonskis.org/2013/elasticsearch-and-logstash-tuning/index.html
+* http://blog.trifork.com/2014/01/07/elasticsearch-how-many-shards/
+* http://elasticsearch-users.115913.n3.nabble.com/Unknown-mlockall-error-0-td4007300.html
+* http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-threadpool.html
